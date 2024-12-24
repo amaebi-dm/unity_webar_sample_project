@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "unity6_webar_sample_project.sln"
+    "dotnet.defaultSolution": "unity6_webar_sample.sln"
 }

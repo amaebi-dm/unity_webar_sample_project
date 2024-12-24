@@ -15,15 +15,15 @@ public class ContentsManager : MonoBehaviour
 
     async void Start()
     {
-        cameraSensor.SetContentsManager( this );
-        geoSensor.SetContentsManager( this );
-        gyroSensor.SetContentsManager( this );
+        // cameraSensor.SetContentsManager( this );
+        // geoSensor.SetContentsManager( this );
+        // gyroSensor.SetContentsManager( this );
 
-        var t1 = cameraSensor.RunAsync();
-        var t2 = geoSensor.RunAsync();
-        var t3 = gyroSensor.RunAsync();
+        // var t1 = cameraSensor.RunAsync();
+        // var t2 = geoSensor.RunAsync();
+        // var t3 = gyroSensor.RunAsync();
 
-        await UniTask.WhenAll( t1, t2, t3 ); 
+        // await UniTask.WhenAll( t1, t2, t3 ); 
 
         DebugLogContents( "Finsh All ..." );
     }
